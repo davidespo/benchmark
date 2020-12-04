@@ -1,0 +1,30 @@
+{
+  "name": "benchmark",
+  "version": "0.1.0",
+  "description": "Distributed loadtesting",
+  "main": "src/main.js",
+  "scripts": {
+    "mock:rest": "nodemon --watch ./test ./test/rest-service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidespo/benchmark.git"
+  },
+  "author": "david@espo.email",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidespo/benchmark/issues"
+  },
+  "homepage": "https://github.com/davidespo/benchmark#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "nanoid": "^3.1.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
