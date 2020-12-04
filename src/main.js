@@ -162,7 +162,7 @@ const test = async (method, params) => {
     'loadtest.soak',
     {
       iterations: 1000,
-      concurrency: 1,
+      concurrency: 7,
       sub: {
         method: 'rest.call',
         params: {

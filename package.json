@@ -4,6 +4,7 @@
   "description": "Distributed loadtesting",
   "main": "src/main.js",
   "scripts": {
+    "start": "node src/main.js",
     "mock:rest": "nodemon --watch ./test ./test/rest-service.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
